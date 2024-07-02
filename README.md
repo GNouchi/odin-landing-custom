@@ -1,5 +1,9 @@
 # odin-landing-custom
+Finished
+![alt text](./expected/full page.png)
+Example:
 ![alt text](./expected/landing.png)
+
 
 img credits:
 Hero: https://www.pexels.com/photo/portrait-of-a-man-showing-thumbs-up-21705266/
