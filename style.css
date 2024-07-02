@@ -1,0 +1,30 @@
+body{
+    padding:0;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+}
+a{
+    list-style: none;
+}
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+header
+, footer{
+    background-color: #1F2937;
+    color:#fff;
+    }
+
+.sign-up-1
+,.call-to-action-container{
+    background-color: #3882F6;
+    color: #fff;
+}
+
+.large-testimonial-container{
+    background-color: #E5E7EB;
+    font: 36px light italic #1f2937;
+}
