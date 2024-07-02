@@ -1,6 +1,6 @@
 # odin-landing-custom
 Finished
-![alt text](./expected/full%20page.png)
+![alt text](./expected/full_page.png)
 Example:
 ![alt text](./expected/landing.png)
 
