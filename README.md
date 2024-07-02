@@ -1,2 +1,2 @@
 # odin-landing-custom
-![alt text](expected/landing.png.png)
+![alt text](./expected/landing.png)
