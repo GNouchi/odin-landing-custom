@@ -33,11 +33,10 @@ header
     background-color: #1F2937;
     color:#fff;
     flex-direction: column;
-    /* padding: 8px; */
 }
 nav{
     margin: 16px 48px;
-    justify-content: space-between;
+    justify-content: space-around;
     display: flex;
     font-size: 18px;
     color: #E5E7EB;
@@ -63,13 +62,12 @@ ul a:hover{
 
 .hero-main{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 64px 48px;
-    gap: 4px;
+    gap: 64px;
     max-height: 420px;
 }
 .hero-card{
-    background-color: green;
     color: #E5E7EB;
     font-size: 18px;
     max-width:420px;
@@ -81,8 +79,6 @@ ul a:hover{
     color: #F9FAF8;
 
 }
-/* .hero-img-container{background-color: red;} */
-
 .hero-img{
     max-height: 420px;
     filter:brightness(95%)
@@ -133,6 +129,30 @@ ul a:hover{
  max-width: 200px;
  min-width: 100px;
 }
+/* Testimonial Section */
+.large-testimonial-container{
+    display: flex;
+    padding: 48px;
+    /* justify-content: space-around; */
+    /* align-items: space-around; */
+    background-color: #E5E7EB;
+    font: 36px light italic #1f2937;
+}
+.large-testimonial-container p{
+    font-size: 36px ;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    max-width: 1080px;
+}
+.large-testimonial-container h4{
+    width: 100%;
+    font-size: 24px;   
+    text-align: end;
+    max-width: 1080px;
+}
+
+/* Sign up button */
 .sign-up-1{
     background-color: #3882F6;
     color: #fff;
@@ -140,24 +160,56 @@ ul a:hover{
     border-radius: 4px;
     padding: 8px 24px;
     font-weight: bold;
+    flex: 0 0 auto
+}
+.sign-up-1:hover{
+    background-color: blue;
 }
 
-.large-testimonial-container{
-    background-color: #E5E7EB;
-    font: 36px light italic #1f2937;
-}
 
+.call-to-action{
+    display: flex;
+}
 .call-to-action-container{
+    display: flex;
+    flex-direction: row;
     background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 6px;
+    padding: 48px;
+    justify-content: space-between;
+    gap: 50px;
+    font-size: 18px;
 }
 
+.call-to-action-card{
+    flex-flow: wrap;
+}
+.call-to-action h5
+,.call-to-action p{ 
+    margin: 0;
+    padding: 0;
+}
+.call-to-action h5{
+ font-size: 24px;   
+}
+.call-to-action p{
+    max-width: 500px;
+}
 
+.sign-up-container{
+    display: flex;
+    align-items: center;
+}
+.call-to-action-container button{
+    border:solid #F9FAF8 2px;
+}
 
-
-footer{
+.footer-container{
+    flex: 1;
+    flex-direction: column;
     background-color: #1F2937;
-    color:#fff;
-   /* justify-items: center; */
-    /* align-content: center; */
-    /* need to align text to center */
+    color:#F9FAF8;
+    text-align: center;
+    padding: 20px;
 }
